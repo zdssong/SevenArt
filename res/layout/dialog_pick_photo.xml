@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/photoalbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/photoalbum"
+        android:background="@drawable/selector_common_item"
+        android:textColor="@drawable/selector_camera_text"
+        android:textSize="@dimen/common_textsize" >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divideline" />
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/camera"
+        android:background="@drawable/selector_common_item"
+        android:textColor="@drawable/selector_camera_text"
+        android:textSize="@dimen/common_textsize" >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divideline" />
+
+    <TextView
+        android:id="@+id/dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/cancle"
+        android:background="@drawable/selector_common_item"
+        android:textColor="@drawable/selector_camera_text"
+        android:textSize="@dimen/common_textsize" >
+    </TextView>
+
+</LinearLayout>

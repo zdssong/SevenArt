@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:listViewAttr="http://schemas.android.com/apk/res/com.sevenart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/initLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载中..." />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="没有更多数据"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <cn.trinea.android.common.view.DropDownListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#dedede"
+        android:dividerHeight="0.8dp"
+        android:drawSelectorOnTop="false"
+        android:visibility="gone"
+        listViewAttr:isDropDownStyle="true"
+        listViewAttr:isOnBottomStyle="true" >
+    </cn.trinea.android.common.view.DropDownListView>
+
+</RelativeLayout>

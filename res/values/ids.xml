@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tou_tiao" type="id">1</item>
+    <item name="wei_guan_wang" type="id">2</item>
+    <item name="wei_xue_tang" type="id">3</item>
+    <item name="fa_xian" type="id">4</item>
+    <item name="tu_ku" type="id">5</item>
+    <item name="shi_pin" type="id">6</item>
+    <item name="zhan_lan" type="id">7</item>
+    <item name="hua_shi" type="id">8</item>
+    <item name="gao_kao" type="id">9</item>
+    <item name="lian_kao" type="id">10</item>
+    <item name="jian_zhang" type="id">11</item>
+    <item name="fen_shu_xian" type="id">12</item>
+    <item name="kao_ti" type="id">13</item>
+    <item name="cheng_ji" type="id">14</item>
+    <item name="lu_qu" type="id">15</item>
+    <item name="pai_mai" type="id">16</item>
+
+    <!-- listView itemId -->
+    <item name="one" type="id">1</item>
+    <item name="two" type="id">2</item>
+    <item name="three" type="id">3</item>
+    <item name="four" type="id">4</item>
+    <item name="five" type="id">5</item>
+    <item name="six" type="id">6</item>
+    <item name="seven" type="id">7</item>
+    <item name="eight" type="id">8</item>
+    <item name="nine" type="id">9</item>
+    <item name="ten" type="id">10</item>
+
+</resources>

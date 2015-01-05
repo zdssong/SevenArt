@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/headImage"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/nopicture" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/headImage" >
+
+        <RelativeLayout
+            android:id="@+id/nickNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp" >
+
+            <TextView
+                android:id="@+id/nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:text="凤凰网广东网友"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/goodNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:text="9"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/good"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/goodNum"
+                android:background="@drawable/nopicture" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/commentContext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nickNameLayout"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="好好学习，天天向上，成为一个有用的人，成为一个国家栋梁"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
